@@ -48,8 +48,8 @@ if __name__ == '__main__':
 
         json_string = json.dumps(row)
         client = paho.Client()
-        client.username_pw_set("jrfcwrim","UhBGemEoqf0D")
-        client.connect("m13.cloudmqtt.com", 14162, 60)
+        client.username_pw_set("dfdf","34343434")
+        client.connect("cloudqx.com", 14162, 60)
         client.publish("rpiwzgps", payload=json_string, qos=0, retain=True)
 
         time.sleep(60)
